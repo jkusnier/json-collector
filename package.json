@@ -1,0 +1,23 @@
+{
+  "name": "json-collector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkusnier/json-collector.git"
+  },
+  "author": "Jason Kusnier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkusnier/json-collector/issues"
+  },
+  "homepage": "https://github.com/jkusnier/json-collector",
+  "dependencies": {
+    "mongoskin": "^1.4.4",
+    "request": "^2.45.0"
+  }
+}
