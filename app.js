@@ -18,12 +18,12 @@ var getJsonData = function () {
     }, function (error, response, body) {
 
         if (!error && response.statusCode === 200) {
-            console.log(body);
+//            console.log(body);
 
             db.collection(config.collectionName).insert(
                 body, function(err, result) {
                     if (err) throw err;
-                    if (result) console.log('Added!');
+//                    if (result) console.log('Added!');
                 });
         }
     });
